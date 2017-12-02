@@ -56,13 +56,6 @@ header {
   top: 50px;
 }
 
-.dog {
-  border: solid;
-  border-color: #528CA4;
-  border-radius: 150px;
-  width: 180px;
-}
-
 h2 {
   color: #528CA4;
 }
@@ -80,12 +73,31 @@ button {
 .bottom {
   display: inline;
   height: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .profile {
   text-align: center;
   width: 300px;
   display: inline-block;
+  margin: 20px 60px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.dog {
+  border: solid;
+  border-color: #528CA4;
+  border-radius: 150px;
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.profile p {
+  margin-bottom: 20px;
 }
 
 footer {
@@ -93,12 +105,19 @@ footer {
  color: #FAFAFA;
  height: 150px;
  text-align: center;
+}
 
+footer h4 {
+  padding-top: 10px;
 }
 
 .social {
   display: inline;
   text-align: center;
+}
+
+.icons {
+  margin: 15px;
 }
 
 a {
